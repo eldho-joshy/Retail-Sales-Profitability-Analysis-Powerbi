@@ -1,99 +1,99 @@
 # 📊 Retail Sales & Profitability Analysis Dashboard
 
 ### Executive Business Intelligence Report using Power BI
+---
 <img width="1397" height="796" alt="dashboard-preview" src="https://github.com/user-attachments/assets/d6533142-6841-4667-a9a7-f130e0a4ab22" />
 
 ---
 
 ## 🔎 Business Problem
 
-Retail management requires clear, structured visibility into sales trends, product performance, and profitability drivers to support strategic decision-making.
+Retail businesses require structured visibility into revenue growth, profitability drivers, and product-level contribution to make strategic pricing and inventory decisions.
 
-Without centralized reporting, it becomes difficult to:
+Without centralized reporting, management struggles to:
 
-* Monitor revenue growth over time
+* Monitor monthly sales trends
 * Identify high-margin product categories
 * Detect low-performing sub-categories
-* Understand profit contribution by product
+* Understand profit distribution across products
 
-This project addresses that challenge by developing an executive-level Power BI dashboard for retail performance monitoring.
+This project delivers an executive-level dashboard to support data-driven decision-making.
 
 ---
 
 ## 🎯 Project Objective
 
-To design an interactive and insight-driven dashboard that:
+To design an interactive Power BI dashboard that:
 
-* Tracks overall sales and profit performance
+* Tracks overall retail performance
 * Analyzes category and sub-category profitability
 * Identifies top-performing products
-* Visualizes monthly revenue trends
-* Enables data-driven business decisions
+* Highlights margin optimization opportunities
+* Enables quick executive-level insights
 
 ---
 
 ## 📂 Dataset
 
-**Dataset Used:** Superstore Retail Dataset
+**Source:** Superstore Retail Dataset
 
-**Data Fields Include:**
+**Key Fields:**
 
 * Order ID
 * Order Date
-* Product Category & Sub-Category
+* Category & Sub-Category
 * Sales
 * Profit
 * Quantity
 
-The dataset was cleaned, transformed, and modeled inside Power BI before visualization.
+The dataset was cleaned, transformed, and modeled within Power BI prior to visualization.
 
 ---
 
 ## 📈 Key Performance Indicators (KPIs)
 
-| KPI               | Purpose                              |
-| ----------------- | ------------------------------------ |
-| Total Sales       | Measures overall revenue performance |
-| Total Profit      | Tracks business profitability        |
-| Profit Margin (%) | Evaluates operational efficiency     |
-| Total Orders      | Indicates business activity volume   |
+| KPI               | Description                      |
+| ----------------- | -------------------------------- |
+| Total Sales       | Overall revenue generated        |
+| Total Profit      | Net profitability                |
+| Profit Margin (%) | Efficiency of revenue conversion |
+| Total Orders      | Business activity volume         |
 
 ---
 
 ## 📊 Dashboard Components
 
-### 1️⃣ Executive KPI Summary
+### 1️⃣ Executive Summary
 
-Top-level KPI cards providing an immediate snapshot of business health.
+Top KPI cards providing an immediate snapshot of financial health.
 
 ### 2️⃣ Monthly Sales Trend Analysis
 
-Time-series visualization (2014–2017) to identify:
+Time-series visualization (2014–2017) to detect:
 
-* Growth trends
-* Seasonal patterns
+* Growth patterns
+* Seasonal peaks
 * Revenue momentum
 
-### 3️⃣ Category-Level Performance
+### 3️⃣ Category-Level Profitability
 
-Comparison of major product categories:
+Revenue vs profit comparison across:
 
 * Technology
 * Furniture
 * Office Supplies
 
-Highlights revenue vs profit contribution.
-
 ### 4️⃣ Sub-Category Analysis
 
-Identifies:
+Highlights:
 
 * High-revenue, low-margin segments
+* Performance imbalance
 * Optimization opportunities
 
 ### 5️⃣ Top Profitable Products
 
-Ranks products contributing most to overall profitability.
+Ranks products contributing most significantly to total profit.
 
 ---
 
@@ -115,10 +115,42 @@ DISTINCTCOUNT(Superstore[Order ID])
 
 ## 💡 Key Business Insights
 
-* Technology category drives the highest overall profit.
-* Furniture generates strong revenue but comparatively lower margins.
-* Profit contribution is concentrated among a limited number of high-performing products.
-* Sales show consistent growth with identifiable seasonal peaks.
+* Technology category drives the highest profitability.
+* Furniture shows strong revenue but comparatively lower margins.
+* Profit contribution is concentrated among a limited number of products.
+* Sales demonstrate steady year-over-year growth with seasonal spikes.
+
+---
+
+## 📌 Business Recommendations
+
+Based on analysis:
+
+* **Improve margin strategy in Furniture category** through pricing optimization or cost control.
+* **Expand high-margin Technology products** via targeted marketing.
+* Focus on **top-performing SKUs** for inventory prioritization.
+* Investigate low-margin sub-categories for operational inefficiencies.
+
+---
+
+## 🚀 Business Impact
+
+This dashboard enables stakeholders to:
+
+* Monitor financial performance effectively
+* Detect underperforming segments early
+* Improve pricing and inventory strategies
+* Support executive-level reporting
+
+---
+
+## 🔮 Future Enhancements
+
+* Year-over-Year (YoY) growth comparison
+* Forecasting using Power BI analytics tools
+* Dynamic Top-N product selector
+* Drill-through product detail page
+* Profitability heatmap visualization
 
 ---
 
@@ -132,20 +164,18 @@ DISTINCTCOUNT(Superstore[Order ID])
 
 ---
 
-## 🚀 Business Value
+## 📎 How to Use
 
-This dashboard enables stakeholders to:
-
-* Monitor financial performance in real-time
-* Optimize pricing and margin strategies
-* Focus marketing efforts on high-profit products
-* Detect underperforming categories early
+1. Download the `.pbit` template file from this repository.
+2. Open in Microsoft Power BI Desktop.
+3. Load the Superstore dataset when prompted.
+4. Explore interactive filters and visual insights.
 
 ---
 
-## 📌 Project Type
+## 📌 Project Category
 
-Business Intelligence | Data Visualization | Retail Analytics
+Business Intelligence | Retail Analytics | Data Visualization | Power BI
 
 ---
 
