@@ -1,83 +1,103 @@
-# Retail Sales Performance Dashboard | Power BI
+# 📊 Retail Sales & Profitability Analysis Dashboard
 
-<img width="1397" height="796" alt="dashboard-preview" src="https://github.com/user-attachments/assets/0ff42681-922c-42fa-abaf-8c52b2b15362" />
-
-
----
-
-## 📌 Project Overview
-
-This project presents an executive-level Retail Sales Performance Dashboard built using the Superstore dataset in Power BI.
-
-The dashboard analyzes revenue growth, profitability distribution, and product-level performance to support data-driven business decisions. It is designed using a clean visual hierarchy and structured layout to reflect real-world executive reporting standards.
+### Executive Business Intelligence Report using Power BI
+<img width="1397" height="796" alt="dashboard-preview" src="https://github.com/user-attachments/assets/d6533142-6841-4667-a9a7-f130e0a4ab22" />
 
 ---
 
-## 🎯 Business Objective
+## 🔎 Business Problem
 
-The objective of this dashboard is to:
+Retail management requires clear, structured visibility into sales trends, product performance, and profitability drivers to support strategic decision-making.
 
-- Monitor overall sales performance  
-- Evaluate profit contribution across categories  
-- Analyze margin efficiency  
-- Identify high-performing products  
-- Detect revenue–profit imbalances across sub-categories  
+Without centralized reporting, it becomes difficult to:
 
-The focus is on transforming raw retail data into actionable business insights.
+* Monitor revenue growth over time
+* Identify high-margin product categories
+* Detect low-performing sub-categories
+* Understand profit contribution by product
 
----
-
-## 📊 Key Metrics
-
-- **Total Sales**
-- **Total Profit**
-- **Profit Margin (%)**
-- **Total Orders**
+This project addresses that challenge by developing an executive-level Power BI dashboard for retail performance monitoring.
 
 ---
 
-## 📈 Dashboard Structure
+## 🎯 Project Objective
 
-### 🔹 Executive KPI Overview
-Top-level performance summary designed for quick strategic evaluation.
+To design an interactive and insight-driven dashboard that:
 
-### 🔹 Monthly Sales Trend (2014–2017)
-Primary analytical visual highlighting growth momentum and seasonal variations.
-
-### 🔹 Revenue Distribution by Category
-Breakdown of sales contribution across Technology, Furniture, and Office Supplies.
-
-### 🔹 Category Profit Contribution
-Comparison of profitability across major product categories.
-
-### 🔹 Sub-Category Sales vs Profit Analysis
-Scatter-based evaluation identifying:
-- High revenue / high profit segments  
-- High revenue / low margin segments  
-- Underperforming areas  
-
-### 🔹 Top 10 Most Profitable Products
-Ranking of products by profit contribution to assess performance concentration.
+* Tracks overall sales and profit performance
+* Analyzes category and sub-category profitability
+* Identifies top-performing products
+* Visualizes monthly revenue trends
+* Enables data-driven business decisions
 
 ---
 
-## 🔍 Key Business Insights
+## 📂 Dataset
 
-- Technology generates the highest revenue and profit contribution.
-- Furniture produces significant revenue but comparatively lower margins.
-- Sales demonstrate consistent upward growth over the observed period.
-- Profitability is concentrated among a limited number of products.
-- Certain sub-categories generate strong sales but moderate profit margins, indicating optimization opportunities.
+**Dataset Used:** Superstore Retail Dataset
+
+**Data Fields Include:**
+
+* Order ID
+* Order Date
+* Product Category & Sub-Category
+* Sales
+* Profit
+* Quantity
+
+The dataset was cleaned, transformed, and modeled inside Power BI before visualization.
 
 ---
 
-## 🛠 Technical Implementation
+## 📈 Key Performance Indicators (KPIs)
 
-### Data Modeling
-- Data transformed and structured within Power BI.
-- Relationships maintained for accurate aggregation and reporting.
+| KPI               | Purpose                              |
+| ----------------- | ------------------------------------ |
+| Total Sales       | Measures overall revenue performance |
+| Total Profit      | Tracks business profitability        |
+| Profit Margin (%) | Evaluates operational efficiency     |
+| Total Orders      | Indicates business activity volume   |
 
-### DAX Measures Used
+---
+
+## 📊 Dashboard Components
+
+### 1️⃣ Executive KPI Summary
+
+Top-level KPI cards providing an immediate snapshot of business health.
+
+### 2️⃣ Monthly Sales Trend Analysis
+
+Time-series visualization (2014–2017) to identify:
+
+* Growth trends
+* Seasonal patterns
+* Revenue momentum
+
+### 3️⃣ Category-Level Performance
+
+Comparison of major product categories:
+
+* Technology
+* Furniture
+* Office Supplies
+
+Highlights revenue vs profit contribution.
+
+### 4️⃣ Sub-Category Analysis
+
+Identifies:
+
+* High-revenue, low-margin segments
+* Optimization opportunities
+
+### 5️⃣ Top Profitable Products
+
+Ranks products contributing most to overall profitability.
+
+---
+
+## 🧮 DAX Measures Implemented
 
 ```DAX
 Total Sales = SUM(Superstore[Sales])
@@ -89,3 +109,43 @@ DIVIDE([Total Profit], [Total Sales], 0)
 
 Total Orders =
 DISTINCTCOUNT(Superstore[Order ID])
+```
+
+---
+
+## 💡 Key Business Insights
+
+* Technology category drives the highest overall profit.
+* Furniture generates strong revenue but comparatively lower margins.
+* Profit contribution is concentrated among a limited number of high-performing products.
+* Sales show consistent growth with identifiable seasonal peaks.
+
+---
+
+## 🛠 Tools & Technologies
+
+* Microsoft Power BI
+* DAX (Data Analysis Expressions)
+* Data Modeling
+* Data Cleaning & Transformation
+* Business Intelligence Reporting
+
+---
+
+## 🚀 Business Value
+
+This dashboard enables stakeholders to:
+
+* Monitor financial performance in real-time
+* Optimize pricing and margin strategies
+* Focus marketing efforts on high-profit products
+* Detect underperforming categories early
+
+---
+
+## 📌 Project Type
+
+Business Intelligence | Data Visualization | Retail Analytics
+
+---
+
