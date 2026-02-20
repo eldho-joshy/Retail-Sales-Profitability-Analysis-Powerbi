@@ -1,7 +1,10 @@
 # 📊 Retail Sales & Profitability Analysis Dashboard
 
-### Executive Business Intelligence Report using Power BI
----
+### Executive Business Intelligence Dashboard | Power BI
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)
+![DAX](https://img.shields.io/badge/Language-DAX-blue)
+![BI Project](https://img.shields.io/badge/Type-Business%20Intelligence-green)
+
 <img width="1397" height="796" alt="dashboard-preview" src="https://github.com/user-attachments/assets/d6533142-6841-4667-a9a7-f130e0a4ab22" />
 
 ---
